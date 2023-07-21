@@ -19,9 +19,11 @@ iii) All inputs are filled with correct data.
 
 iv) Validate all inputs step by step.
 ![IMG_20230721_201150](https://github.com/002pal/Form-Validation/assets/94923357/3ee7c9d6-5184-444e-b677-911c0e701d0b)
+
+v) Password will be hide and show using toggle button.
 ![IMG_20230721_201143](https://github.com/002pal/Form-Validation/assets/94923357/efed9ac4-bbef-434d-b040-52e33e9a733e)
 
-v) Welcome popup message.with User name.
+vi) Welcome popup message.with User name.
 ![IMG_20230721_201132](https://github.com/002pal/Form-Validation/assets/94923357/87e919b3-ff3d-4987-a331-4a3cc36ae730)
 
 After 5sec popup message will be hide and Form will be Reset.
