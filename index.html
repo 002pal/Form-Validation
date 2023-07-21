@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title> multi-page validation </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main_form">
+    <h1>create account</h1>
+
+    <form id="form" action="" method="get">
+
+      <label for="">Name</label>
+      <div class="name_div">
+        <div class="inputfield">
+          <input type="text" id="first-name" class="input_class" placeholder="First Name">
+          <span id="message"></span>
+        </div>
+        <!-- <input field 1 first name -->
+
+        <div class="inputfield">
+          <input type="text" id="last-name" class="input_class" placeholder="Last Name">
+          <span id="message"></span>
+        </div>
+        <!-- input field 2 last name -->
+      </div>
+      <!-- names div -->
+
+      <div class="inputfield">
+        <label for="number">Number</label>
+        <input type="number" name="number" class="input_class" id="number" placeholder="00000 00000">
+        <span id="message"></span>
+      </div>
+      <!-- input field 3 number -->
+
+      <div class="inputfield">
+        <label for="email">Email</label>
+        <input type="email" name="email" class="input_class" id="email" placeholder="ex: example@gmail.com">
+        <span id="message"></span>
+      </div>
+      <!-- input field 4 email -->
+
+      <div class="password_div">
+        <div class="inputfield">
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" class="input_class" placeholder="Password">
+          <span class="toggle-btn">
+            <input type="checkbox" id="pass-toggleBtn">
+          </span>
+          <!-- toggle-btn -->
+          <span id="message"></span>
+        </div>
+        <!-- input field 7 password -->
+
+        <div class="inputfield">
+          <label for="confirm password">Confirm Password</label>
+          <input type="password" name="confirm password" id="confirm_password" class="input_class" placeholder="Confirm Password">
+          <span class="toggle-btn">
+            <input type="checkbox" id="conf-pass-toggleBtn">
+          </span>
+          <!-- toggle-btn -->
+          <span id="message"></span>
+        </div>
+        <!-- input field 8 -->
+      </div>
+      <!-- password_div -->
+
+      <div class="dob">
+        <label for="DOB">Date of Birth</label>
+        <input type="date" name="date" id="date" class="input_class ">
+        <span id="message"></span>
+      </div>
+      <!-- input field 5 date of birth -->
+
+      <div class="inputfield">
+        <label for="gender" class="gender">Gender :</label>
+        <div id="gender">
+          <label for="Male">Male</label>
+          <input type="radio" name="gender" value="male" id="male">
+          <label for="Female">Female</label>
+          <input type="radio" name="gender" value="female" id="female">
+          <label for="Other">Other</label>
+          <input type="radio" name="gender" value="other" id="other">
+        </div>
+        <span id="radio_msg"></span>
+      </div>
+      <!-- input field 6 gender -->
+
+
+      <input class="btn" type="submit" value="submit">
+    </form>
+    <!-- form -->
+
+  </div>
+  <!-- main_form -->
+
+  <div class="overlay">
+    <h2>Welcome ! <h3 id="guest_name"></h3>
+    </h2>
+    <br />
+    <h5>registration successfully</h5>
+  </div>
+  <!-- overlay -->
+
+  <script src="main.js"></script>
+</body>
+
+</html>
