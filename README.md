@@ -1,11 +1,11 @@
 # Form-Validation
 A complete From validation using javascript.
 programming level :- Intermediate level.
-What's Different?
-1. validation Name and Email using Regex language.
-2. Radio validation.
-3. Password hide and show toggle button.
-4. After completing form popup a Welcome message.
+What's New? 
+1. Name and Email validate using Regex language.
+2. Validation Radio (gender).
+3. Hide and Show Password with toggle button.
+4. After submitting form, popup a Welcome message.
 5. Take User data like Name. and Show in popup welcome page.
 
 i) Form preview
